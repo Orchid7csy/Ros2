@@ -1,0 +1,5 @@
+{
+    "name": "Ubuntu 22.04",
+    "image": "ghcr.io/devcontainers/images/universal:jammy",
+    "features": {}
+  }
