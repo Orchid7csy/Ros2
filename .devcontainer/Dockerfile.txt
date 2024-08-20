@@ -1,5 +1,5 @@
 ARG VARIANT="jammy"
-FROM buildpack-deps:${VARIANT}-curl
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-${VARIANT}
 
 LABEL dev.containers.features="common"
 
