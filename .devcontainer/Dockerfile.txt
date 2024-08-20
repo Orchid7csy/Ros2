@@ -1,5 +1,4 @@
-ARG VARIANT="jammy"
-FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04${VARIANT}
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 
 LABEL dev.containers.features="common"
 
