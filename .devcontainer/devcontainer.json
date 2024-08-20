@@ -1,5 +1,10 @@
 {
-    "name": "Ubuntu 22.04",
-    "image": "ghcr.io/devcontainers/images/universal:jammy",
-    "features": {}
+  "name": "Ubuntu 22.04",
+  "image": "ghcr.io/devcontainers/images/base:jammy",
+  "features": {},
+  "build": {
+    "args": {
+      "DOCKERFILE": "Dockerfile"
+    }
   }
+}
